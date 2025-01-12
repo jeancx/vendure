@@ -1,3 +1,23 @@
+## <small>2.3.3 (2024-10-15)</small>
+
+#### Fixes
+
+* **asset-server-plugin** Fix local file read vulnerability when using the LocalAssetStorageStrategy ([e2ee0c4](https://github.com/vendure-ecommerce/vendure/commit/e2ee0c43159b3d13b51b78654481094fdd4850c5)). See the [security advisory](https://github.com/vendure-ecommerce/vendure/security/advisories/GHSA-r9mq-3c9r-fmjq)
+
+## <small>2.3.2 (2024-10-04)</small>
+
+
+#### Fixes
+
+* **admin-ui** Unsubscribe from alerts when logging out (#3071) ([ead1caa](https://github.com/vendure-ecommerce/vendure/commit/ead1caa)), closes [#3071](https://github.com/vendure-ecommerce/vendure/issues/3071) [#2188](https://github.com/vendure-ecommerce/vendure/issues/2188)
+
+## <small>2.3.1 (2024-09-10)</small>
+
+
+#### Fixes
+
+* **core** Prevent exposure of private custom fields via JSON type ([29b83d9](https://github.com/vendure-ecommerce/vendure/commit/29b83d9)), closes [#3049](https://github.com/vendure-ecommerce/vendure/issues/3049)
+
 ## 2.3.0 (2024-07-17)
 
 
